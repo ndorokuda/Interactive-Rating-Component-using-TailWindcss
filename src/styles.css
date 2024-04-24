@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-main {
+  width: 325px;
+}
+
+body {
+  @apply font-body flex justify-center items-center h-screen bg-neutral-blue-200;
+}
+
+.rating {
+  @apply rounded-full bg-neutral-grey-300 p-3 w-11 h-11 flex justify-center items-center font-bold hover:cursor-pointer hover:bg-neutral-grey-100 hover:text-neutral-white active:bg-primary;
+}
